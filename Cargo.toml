@@ -1,0 +1,10 @@
+[package]
+name = "clap_info_host"
+version = "0.1.0"
+edition = "2021"
+authors = ["Will McGloughlin"]
+
+[dependencies]
+libloading = "0.7"
+clap = { version = "4.5.19", features = ["derive"] }
+clap-sys = "0.2"
